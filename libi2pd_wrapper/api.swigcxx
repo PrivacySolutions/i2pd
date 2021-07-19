@@ -1,0 +1,8 @@
+// See swig.org for more inteface options,
+// e.g. map std::string to Go string
+
+%{
+#include "capi.h"
+%}
+
+%include "capi.h"
